@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/imageView5"
         android:layout_width="@dimen/dp412"
         android:layout_height="@dimen/dp268"
         android:src="@drawable/top_background1"
@@ -16,8 +17,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="ContentDescription,MissingConstraints"
-        tools:layout_editor_absoluteY="0dp"
-        />
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
         android:layout_width="@dimen/dp157"
@@ -27,20 +27,23 @@
         android:textColor="@color/white"
         android:textSize="@dimen/dp40"
         android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints,SpUsage"
-        tools:layout_editor_absoluteX="26dp"
         tools:layout_editor_absoluteY="80dp" />
 
     <ImageView
+        android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/women1"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="ContentDescription,MissingConstraints"
-        tools:layout_editor_absoluteX="234dp"
         tools:layout_editor_absoluteY="33dp" />
 
 
     <EditText
+        android:id="@+id/editText3"
         android:layout_width="@dimen/dp346"
         android:layout_height="@dimen/dp54"
         android:background="@drawable/btn2"
@@ -49,8 +52,8 @@
         android:textColor="@color/_717171"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="292dp"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="292dp">
 
     <TextView
         android:layout_width="@dimen/dp105"
@@ -59,9 +62,9 @@
         android:textColor="@color/_5325"
         android:textSize="@dimen/textSize"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText3"
         tools:ignore="MissingConstraints,SpUsage"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="262dp" />
+        tools:layout_editor_absoluteX="32dp" />
 
     <TextView
         android:layout_width="@dimen/dp140"
@@ -70,9 +73,9 @@
         android:textColor="@color/_5325"
         android:textSize="@dimen/textSize"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText4"
         tools:ignore="MissingConstraints,SpUsage"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="363dp" />
+        tools:layout_editor_absoluteX="32dp" />
 
     <TextView
         android:layout_width="@dimen/dp170"
@@ -81,11 +84,12 @@
         android:textColor="@color/_5325"
         android:textSize="@dimen/textSize"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText5"
         tools:ignore="MissingConstraints,SpUsage"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="472dp" />
+        tools:layout_editor_absoluteX="36dp" />
 
     <EditText
+        android:id="@+id/editText4"
         android:layout_width="@dimen/dp346"
         android:layout_height="@dimen/dp54"
         android:background="@drawable/btn2"
@@ -94,10 +98,11 @@
         android:textColor="@color/_717171"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="393dp"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="393dp" />
 
     <EditText
+        android:id="@+id/editText5"
         android:layout_width="@dimen/dp346"
         android:layout_height="@dimen/dp54"
         android:background="@drawable/btn2"
@@ -106,8 +111,8 @@
         android:textColor="@color/_717171"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="502dp"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="502dp" />
 
     <androidx.appcompat.widget.AppCompatButton
 
@@ -138,8 +143,9 @@
         android:textColor="@color/_5325a"
         android:textSize="@dimen/textSize"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints,SpUsage"
-        tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="710dp" />
 
     <androidx.appcompat.widget.AppCompatButton

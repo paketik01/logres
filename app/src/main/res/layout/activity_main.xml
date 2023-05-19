@@ -49,6 +49,7 @@
         tools:ignore="MissingConstraints,SpUsage" />
 
     <ImageView
+        android:id="@+id/imageView7"
         android:layout_width="@dimen/dp416"
         android:layout_height="@dimen/dp775"
         android:layout_marginTop="@dimen/dp92"
@@ -78,8 +79,8 @@
         tools:ignore="SpUsage" />
 
     <ImageView
-        android:layout_width="@dimen/dp412"
-        android:layout_height="@dimen/dp836"
+        android:layout_width="413dp"
+        android:layout_height="664dp"
         android:background="@drawable/white_line"
         tools:ignore="ContentDescription,MissingConstraints"
         tools:layout_editor_absoluteX="-1dp"

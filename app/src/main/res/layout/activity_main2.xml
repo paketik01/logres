@@ -7,9 +7,13 @@
     tools:ignore="MissingDefaultResource">
 
     <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/top_background1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ContentDescription,MissingConstraints" />
 
     <TextView
@@ -20,19 +24,22 @@
         android:textColor="@color/white"
         android:textSize="@dimen/dp36"
         android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints,SpUsage"
-        tools:layout_editor_absoluteX="20dp"
         tools:layout_editor_absoluteY="75dp" />
 
     <ImageView
+        android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/women2"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="ContentDescription,MissingConstraints"
-        tools:layout_editor_absoluteX="250dp"
         tools:layout_editor_absoluteY="75dp" />
 
     <EditText
+        android:id="@+id/editText2"
         android:layout_width="@dimen/dp346"
         android:layout_height="@dimen/dp54"
         android:background="@drawable/btn2"
@@ -52,9 +59,9 @@
         android:textColor="@color/_5325"
         android:textSize="@dimen/textSize"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText2"
         tools:ignore="MissingConstraints,SpUsage"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="326dp" />
+        tools:layout_editor_absoluteX="32dp" />
 
     <TextView
         android:layout_width="@dimen/dp140"
@@ -63,11 +70,12 @@
         android:textColor="@color/_5325"
         android:textSize="@dimen/textSize"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
         tools:ignore="MissingConstraints,SpUsage"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="449dp" />
+        tools:layout_editor_absoluteX="32dp" />
 
     <EditText
+        android:id="@+id/editText"
         android:layout_width="@dimen/dp346"
         android:layout_height="@dimen/dp54"
         android:background="@drawable/btn2"
@@ -87,19 +95,21 @@
         android:textColor="@color/_5325"
         android:textSize="17dp"
         android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
         tools:ignore="MissingConstraints,SpUsage"
-        tools:layout_editor_absoluteX="233dp"
-        tools:layout_editor_absoluteY="532dp" />
+        tools:layout_editor_absoluteX="233dp" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/facebook"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="600dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteY="600dp" />
 
     <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/google"
@@ -111,9 +121,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/twitter"
-        tools:layout_editor_absoluteX="294dp"
-        tools:layout_editor_absoluteY="600dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        tools:ignore="ContentDescription,MissingConstraints"
+        tools:layout_editor_absoluteY="600dp" />
 
     <androidx.appcompat.widget.AppCompatButton
 
@@ -126,8 +137,9 @@
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="@dimen/tsize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints,SpUsage"
-        tools:layout_editor_absoluteX="30dp"
         tools:layout_editor_absoluteY="690dp" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -136,8 +148,9 @@
         android:layout_height="@dimen/dp60"
         android:background="@drawable/btn1"
         android:text="@string/don_t_have_an_account_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="32dp"
         tools:layout_editor_absoluteY="783dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
